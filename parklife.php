@@ -12,32 +12,32 @@
     <!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #EFB275 10%, #EAD4FC 90%) repeat scroll 0 0;" Parklife-->
     <body>
         <style>
-            
-/*            h1, h2, h3, h4, h5, h6{
-                color: #CD5C5C;
-            }
-            
-            .navbar-default{
-                background-color: #A4C639;
-                border-color: lemonchiffon;
-                border-radius: 2px;
-            }
-            .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-                background-color: #ff7e00;
-                color: lavender;
-            }
-            .navbar-default .navbar-nav > li > a {
-                color: blue;
-            }
-            .navbar-default .navbar-nav > li > a:hover {
-                color: blue;
-            }
-            
+
+            /*            h1, h2, h3, h4, h5, h6{
+                            color: #CD5C5C;
+                        }
+                        
+                        .navbar-default{
+                            background-color: #A4C639;
+                            border-color: lemonchiffon;
+                            border-radius: 2px;
+                        }
+                        .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+                            background-color: #ff7e00;
+                            color: lavender;
+                        }
+                        .navbar-default .navbar-nav > li > a {
+                            color: blue;
+                        }
+                        .navbar-default .navbar-nav > li > a:hover {
+                            color: blue;
+                        }
+                        
             */
-/*            .dropdown-menu li:hover{
-                background-color: #ffe4c4;
-                border-color: #E7E7E7;
-            }*/
+            /*            .dropdown-menu li:hover{
+                            background-color: #ffe4c4;
+                            border-color: #E7E7E7;
+                        }*/
 
             .dropdown-submenu{
                 position:relative;
@@ -407,7 +407,7 @@
                     </table>
                 </div>
             </div>
-<div class="row form-group">
+            <div class="row form-group">
                 <label>Result, news & notice board</label><br>
                 <div class="col-md-6">
 
@@ -710,12 +710,12 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="row form-group">
-            <div class="col-md-offset-10 col-md-2">
-                <a href="index.php">
-                    <input class="btn btn-default btn-sm btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
-                </a>
+            <div class="row form-group">
+                <div class="col-md-offset-10 col-md-2">
+                    <a href="index.php">
+                        <input class="btn btn-default btn-sm btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
+                    </a>
+                </div>
             </div>
         </div>
     </body>

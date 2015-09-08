@@ -791,12 +791,13 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="row form-group">
-            <div class="col-md-offset-10 col-md-2">
-                <a href="index.php">
-                    <input class="btn btn-primary btn-sm btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
-                </a>
+
+            <div class="row form-group">
+                <div class="col-md-offset-10 col-md-2">
+                    <a href="index.php">
+                        <input class="btn btn-primary btn-sm btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
+                    </a>
+                </div>
             </div>
         </div>
     </body>

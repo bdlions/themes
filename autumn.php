@@ -89,7 +89,7 @@
                     background-color: #A67B5B;
                 }
             }
-            
+
 
             .carousel-inner > .item > img{
                 width: 100%;
@@ -159,12 +159,12 @@
                 color: #fff;
                 cursor: pointer;
             }
-            
+
             .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
                 background-color: #f88379;
                 color: #fff;
             }
-            
+
             .well{
                 background-color: pink; 
             }
@@ -187,7 +187,7 @@
             .progress{
                 background-color: #f88379;
             }
-            
+
             .btn-default{
                 background-color: #F88379;
                 color: #002E63;
@@ -198,8 +198,8 @@
                 color: #fff;
                 border-color: #00008B;
             }
-            
-            
+
+
         </style>
         <script>
             $('#myModal').on('shown.bs.modal', function() {
@@ -831,12 +831,12 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="row form-group">
-            <div class="col-md-offset-10 col-md-2">
-                <a href="index.php">
-                    <input class="btn btn-default btn-sm btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
-                </a>
+            <div class="row form-group">
+                <div class="col-md-offset-10 col-md-2">
+                    <a href="index.php">
+                        <input class="btn btn-default btn-sm btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
+                    </a>
+                </div>
             </div>
         </div>
     </body>

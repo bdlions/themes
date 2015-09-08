@@ -4,34 +4,199 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Theme: Mango Pulp</title>
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/mangoPulp/bootstrap.css">
 
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
     <!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #E5D4BC 10%, #F9F0A7 90%) repeat scroll 0 0; Mango Pulp-->
     <body style="background: rgba(0, 0, 0, 0) linear-gradient(90deg, #E5D4BC 10%, #F9F0A7 90%) repeat scroll 0 0;">
-        <style>
-            .content {
-                width: 100%;
-                margin: 0px auto;
+   <style>
+            body{
+                color: #990000;
             }
-            .embed-container {
-                height: 0;
-                width: 100%;
-                padding-bottom: 56.25%;
-                overflow: hidden;
+            h1, h2, h3, h4, h5, h6{
+                margin-top: 10px!important;
+                color: #008000;
+            }
+            .carousel-caption {
+                /*background: transparent!important;*/
+                bottom: 0;
+                color: #fff!important;
+                padding-bottom: 5px;
+                padding-top: 5px;
                 position: relative;
-            }
-            .embed-container iframe {
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                top: 0;
+                text-align: center;
+                text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+                z-index: 10;
                 left: 0;
+                right: 0;
+                background-color: #F0DC82;
             }
-        </style> 
 
+
+            /*------------------------------------*/
+
+            .navbar-default {
+                background-color: #6E7F80!important;
+                border-color: #B2BEB5!important;
+            }
+            .navbar {
+                border-radius: 0;
+            }
+
+            .navbar-default .navbar-brand {
+                color: #fff;
+            }
+            .navbar-default .navbar-nav > li > a {
+                color: #fff;
+            }
+            .navbar-default .navbar-nav > li > a:hover {
+                color: #FAF0BE;
+            }
+            .navbar-default .navbar-brand:hover{
+                color: #A52A2A!important;
+            }
+            .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+                background-color: #007FFF;
+                color: #fff!important;
+            }
+            .navbar-default {
+                background-color: #c6e5ff;
+                border-color: #fbceb1;
+            }
+            .navbar-default .navbar-nav > .active > a {
+                background-color: #8A2BE2;
+                color: #fff;
+            }
+            .navbar-default .navbar-nav > .active > a:hover {
+                background-color: #FCB42F;
+                color: #fff;
+            }
+            .dropdown-menu > li > a:hover {
+                background-color: #F4BBFF;
+                color: #fff;
+                font-weight: bold;
+            }
+            @media (max-width: 767px) {
+                .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+                    color: #fff;
+                }
+                .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+                .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+                    color: #fff;
+                    background-color: #A67B5B;
+                }
+            }
+
+
+            .carousel-inner > .item > img{
+                width: 100%;
+            }
+            .imgbuttonb {
+                height: 32px;
+                position: absolute;
+                left: 32px;
+                top: 50%;
+                width: 32px;
+            }
+            .imgbuttonf {
+                height: 32px;
+                position: absolute;
+                right: 32px;
+                top: 50%;
+                width: 32px;
+            }
+            
+            label {
+                color: darkviolet!important;
+            }
+            .form-control {
+                background-color: #FFFDD0;
+                border: 1px solid #fbceb1;
+                border-radius: 0;
+                color: #8F00FF;
+                height: 34px;
+            }
+            .form-control:focus {
+                border: 1px solid #614051;
+            }
+            .form-control::-moz-placeholder {
+                color: blue;
+                opacity: 1;
+            }
+            .modal-content{
+                background-color: #D1DDC5;
+            }
+            textarea{
+                resize: none;
+            }
+            a{
+                color: #FF3800;  
+            }
+            a:hover{
+                color: #B8860B;
+                text-decoration: none!important;
+                cursor: pointer;
+            }
+            .table-bordered, .table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+                border: 1px solid #A9BA9D;
+            }
+            .table-hover > tbody > tr:hover{
+                background-color: #BDB76B;
+                cursor: pointer;
+            }
+
+            .nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+                background-color: #556B2F;
+                border-color: #ddd #ddd transparent;
+                border-image: none;
+                border-style: solid;
+                border-width: 1px;
+                color: #fff;
+                cursor: pointer;
+            }
+
+            .nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
+                background-color: #556B2F;
+                color: #fff;
+            }
+
+            .well{
+                background-color: #f8f8f8; 
+            }
+            .panel-default > .panel-heading + .panel-collapse > .panel-body {
+                background-color: #f8f8f8;
+            }
+
+            .panel-title > a{
+
+                color: #915C83;
+            }     
+            .panel-title > a:hover{
+
+                color: #337ab7;
+            }  
+            .progress-bar {
+                background-color: #85BB65;
+            }
+            .progress{
+                background-color: #BF00FF;
+            }
+
+            .btn-default{
+                background-color: #78866B;
+                color: #fff;
+                border-color: #800020;
+            }
+            .btn-default:hover{
+                background-color: darkviolet;
+                color: #fff;
+                border-color: #004953;
+            }
+
+
+        </style>
         <script>
             $('#myModal').on('shown.bs.modal', function() {
                 $('#myInput').focus();
@@ -42,81 +207,74 @@
 
             <!--heading tag-->
             <div class="row form-group">
-                <div class="col-md-6" style="text-align: center;">
-                    <h1>Welcome to Everyone</h1>
-                    <h2>This is a Demo project</h2>
-                    <h3>This is basically a School Project</h3>
-                    <h4>We are at beginning stage</h4>
-                    <h5>We are so hope about this project</h5>
-                    <h6>Insha-Allah, we will try our level best to build this project most precious</h6> 
-                </div>
-                <div class="col-md-6">
-                    <div class="row form-group"></div>
-                    <div class="row form-group"></div>
-                    <div class="row form-group"></div>
-                    <div class="row form-group"></div>
-                    <div class="row form-group"></div>
-                    <blockquote>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                        <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
-                    </blockquote>
+                <div class="col-md-12">
+                    <h2>AraiHazar Pilot High School</h2>
+                    <h4>Araihazar, Narayangonj</h4>
                 </div>
             </div>
             <!--navbar tag-->
             <div class="row form-group">
                 <div class="col-md-12">
-                    <nav class="navbar navbar-default">
-                        <div class="container-fluid">
-                            <!-- Brand and toggle get grouped for better mobile display -->
-                            <div class="navbar-header">
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                    <span class="icon-bar"></span>
-                                </button>
-                                <a class="navbar-brand" href="">Brand</a>
-                            </div>
+                    <nav class="navbar navbar-default" role="navigation">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="#">Brand</a>
+                        </div>
 
-                            <!-- Collect the nav links, forms, and other content for toggling -->
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav">
-                                    <li class="active"><a href="">Link 1 <span class="sr-only">(current)</span></a></li>
-                                    <li><a href="">Link 2</a></li>
-                                    <li class="dropdown">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="">Action</a></li>
-                                            <li><a href="">Another action</a></li>
-                                            <li><a href="">Something else here</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="">Separated link</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="">One more separated link</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <form class="navbar-form navbar-left" role="search">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Search">
-                                    </div>
-                                    <button type="submit" class="btn btn-default">Submit</button>
-                                </form>
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="">Link</a></li>
-                                    <li class="dropdown">
-                                        <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="">Action</a></li>
-                                            <li><a href="">Another action</a></li>
-                                            <li><a href="">Something else here</a></li>
-                                            <li role="separator" class="divider"></li>
-                                            <li><a href="">Separated link</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div><!-- /.navbar-collapse -->
-                        </div><!-- /.container-fluid -->
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse navbar-ex1-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="active"><a href="#">Link</a></li>
+                                <li><a href="#">Link</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Multi Level <b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Level 1</a></li>
+                                        <li class="dropdown-submenu"> <a tabindex="-1" href="#">More options</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a tabindex="-1" href="#">Level 2</a>
+                                                </li>
+                                                <li class="dropdown-submenu"> <a href="#">More..</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Level 3</a>
+                                                        </li>
+                                                        <li><a href="#">Level 3</a>
+                                                        </li>
+                                                        <li class="dropdown-submenu"> <a href="#">More..</a>
+                                                            <ul class="dropdown-menu">
+                                                                <li><a href="#">Level 4</a>
+                                                                </li>
+                                                                <li><a href="#">Level 4</a>
+                                                                </li>
+                                                                <li class="dropdown-submenu"> <a href="#">More..</a>
+                                                                    <ul class="dropdown-menu">
+                                                                        <li><a href="#">Level 5</a>
+                                                                        </li>
+                                                                        <li><a href="#">Level 5</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </li>
+                                                            </ul>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Level 2</a>
+                                                </li>
+                                                <li><a href="#">Level 2</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Level 1</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div><!-- /.navbar-collapse -->
                     </nav>
                 </div>
             </div>
@@ -124,39 +282,43 @@
             <!--carousel slider-->
             <div class="row form-group">
                 <div class="col-md-12">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        </ol>
+                    <div id="carousel_slider" class="carousel slide" data-ride="carousel">
+<!--                                                 Indicators 
+                                                <ol class="carousel-indicators">
+                                                    <li data-target="#carousel_slider" data-slide-to="0"></li>
+                                                    <li data-target="#carousel_slider" data-slide-to="1"></li>
+                                                    <li data-target="#carousel_slider" data-slide-to="2"></li>
+                                                </ol>-->
 
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner" role="listbox">
                             <div class="item active">
                                 <img src="images/1.jpg">
+                                <div class="carousel-caption">
+                                    <h3>Caption 1</h3>
+                                </div>
                             </div>
                             <div class="item">
                                 <img src="images/2.jpg">
+                                <div class="carousel-caption">
+                                    <h3>Caption 2</h3>
+                                </div>
                             </div>
                             <div class="item">
                                 <img src="images/3.jpg">
+                                <div class="carousel-caption">
+                                    <h3>Caption 3</h3>
+                                </div>
                             </div>
                         </div>
 
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
+                        <a data-slide="next" href="#carousel_slider">
+                            <img class="imgbuttonf"  src="images/frontArrow.png">
                         </a>
-                        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
+                        <a data-slide="prev" href="#carousel_slider">
+                            <img class="imgbuttonb" src="images/backArrow.png">
                         </a>
                     </div>
-
-
                 </div>
             </div>
 
@@ -167,7 +329,7 @@
                         <img class="img-responsive" src="images/chairmain.jpg" alt="Hello World">
                         <h4>Chairman's Message!</h4>
                         <p style="font-size: 14px;">The magnificently designed Rajuk Uttara Model College stands proudly on the Dhaka-Mymensing Road in the heart.</p>
-                        <p><a class="btn btn-primary btn-sm pull-right" href="" role="button">Learn more</a></p>
+                        <p><a class="btn btn-default btn-sm pull-right" href="" role="button">Learn more</a></p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -176,7 +338,7 @@
                         <div class="caption">
                             <h4>Head Teacher's Message!</h4>
                             <p>The magnificently designed Rajuk Uttara Model College stands proudly on the Dhaka-Mymensing Road in the heart.</p>
-                            <p><a class="btn btn-primary btn-sm pull-right" href="" role="button">Learn more</a></p><br>
+                            <p><a class="btn btn-default btn-sm pull-right" href="" role="button">Learn more</a></p><br>
                         </div>
                     </div>
                 </div>
@@ -223,7 +385,7 @@
                             <div class="input-group">
                                 <input type="text" class="form-control" placeholder="Search for everything">
                                 <span class="input-group-btn">
-                                    <button class="btn btn-default" type="button">Go!</button>
+                                    <button class="btn btn-default btn-sm" type="button">Go!</button>
                                 </span>
                             </div> 
                         </div>
@@ -238,10 +400,10 @@
                 <div class="col-md-3">
                     <label>Gender:</label>
                     <div class="radio">
-                        <label><input type="radio"> Male</label>
+                        <input type="radio" > Male
                     </div>
                     <div class="radio">
-                        <label><input type="radio"> Female</label>
+                        <input type="radio"> Female
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -256,7 +418,7 @@
                 </div>
                 <div class="col-md-3">
                     <label>Modal:</label><br>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                    <button type="button" class="btn btn-default btn-sm" data-toggle="modal" data-target="#myModal">
                         Launch demo modal
                     </button>
 
@@ -272,8 +434,8 @@
                                     This is a demo modal.
                                 </div>
                                 <div class="modal-footer">
-                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                    <button type="button" class="btn btn-default btn-sm" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-default btn-sm">Save changes</button>
                                 </div>
                             </div>
                         </div>
@@ -281,6 +443,23 @@
                 </div>
             </div>
 
+            <div class="row form-group">
+                <div class="col-md-6">
+                    <label>Badge</label><br>
+                    <a href="#">Inbox <span class="badge">42</span></a>
+                    <button class="btn btn-default" type="button">
+                        Messages <span class="badge">4</span>
+                    </button>
+                </div>
+                <div class="col-md-6">
+                    <label>Breadcrumb</label>
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li class="active">Data</li>
+                    </ol>
+                </div>
+            </div>
             <div class="row form-group">
                 <div class="col-md-12">
                     <label>Paragraph:</label>
@@ -320,33 +499,33 @@
                 <div class="col-md-12">
                     <label>Table:</label>
                     <table class="table table-bordered table-hover">
-                        <tr>
-                            <td class="active">One</td>
-                            <td class="success">Two</td>
-                            <td class="warning">Three</td>
-                            <td class="danger">Four</td>
-                            <td class="info">Five</td>
+                        <tr class="non_hover">
+                            <td >One</td>
+                            <td>Two</td>
+                            <td>Three</td>
+                            <td>Four</td>
+                            <td>Five</td>
                         </tr>
                         <tr>
-                            <td class="active">1</td>
-                            <td class="success">2</td>
-                            <td class="warning">3</td>
-                            <td class="danger">4</td>
-                            <td class="info">5</td>
+                            <td>1</td>
+                            <td>2</td>
+                            <td>3</td>
+                            <td>4</td>
+                            <td>5</td>
                         </tr>
                         <tr>
-                            <td class="active">i</td>
-                            <td class="success">ii</td>
-                            <td class="warning">iii</td>
-                            <td class="danger">iv</td>
-                            <td class="info">v</td>
+                            <td>i</td>
+                            <td>ii</td>
+                            <td>iii</td>
+                            <td>iv</td>
+                            <td>v</td>
                         </tr>
                     </table>
                 </div>
             </div>
             <div class="row form-group">
-                <label>Result, news & notice board</label><br>
                 <div class="col-md-6">
+                    <label>Result, news & notice board</label><br>
 
                     <!-- nav tabs -->
                     <ul class="nav nav-tabs" role="tablist">
@@ -359,7 +538,7 @@
                     <div class="tab-content" style="margin-top: 10px;">
                         <div role="tabpanel" class="tab-pane active form-group" id="result">
                             <table class="table table-bordered table-hover">
-                                <tr>
+                                <tr class="non_hover">
                                     <td>Serial</td>
                                     <td>Exam</td>
                                     <td>Year</td>
@@ -394,7 +573,7 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-
+                    <label>Result, news & notice board</label><br>
                     <!-- nav tabs -->
                     <ul class="nav nav-pills" role="tablist">
                         <li role="presentation" class="active"><a href="#resultpills" aria-controls="resultpills" role="tab" data-toggle="tab">Result</a></li>
@@ -406,7 +585,7 @@
                     <div class="tab-content" style="margin-top: 10px;">
                         <div role="tabpanel" class="tab-pane active form-group" id="resultpills">
                             <table class="table table-bordered table-hover">
-                                <tr>
+                                <tr class="non_hover">
                                     <td>Serial</td>
                                     <td>Exam</td>
                                     <td>Year</td>
@@ -445,10 +624,10 @@
             <div class="row form-group">
                 <div class="col-md-12">
                     <label> Landing Text Area:</label><br>
-                    <a class="btn btn-primary" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <a class="btn btn-default btn-sm" role="button" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         Link with href
                     </a>
-                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    <button class="btn btn-default btn-sm" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
                         Button with data-target
                     </button>
                     <div class="collapse" id="collapseExample">
@@ -512,50 +691,51 @@
             <div class="row form-group">
                 <div class="col-md-6">
                     <label>All Buttons:</label><br>
-                    <button type="button" class="btn btn-default">Default</button>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                    <button type="button" class="btn btn-success">Success</button>
-                    <button type="button" class="btn btn-info">Info</button>
-                    <button type="button" class="btn btn-warning">Warning</button>
-                    <button type="button" class="btn btn-danger">Danger</button>
+                    <button type="button" class="btn btn-default btn-sm">Default</button>
+                    <button type="button" class="btn btn-default btn-sm">Primary</button>
+                    <button type="button" class="btn btn-default btn-sm">Success</button>
+                    <button type="button" class="btn btn-default btn-sm">Info</button>
+                    <button type="button" class="btn btn-default btn-sm">Warning</button>
+                    <button type="button" class="btn btn-default btn-sm">Danger</button>
                 </div>
                 <div class="col-md-6">
                     <label>Button's Size:</label><br>
-                    <button type="button" class="btn btn-default btn-lg">lg button</button>
-                    <button type="button" class="btn btn-default">md button</button>
+                    <button type="button" class="btn btn-default btn-sm">lg button</button>
+                    <button type="button" class="btn btn-default btn-sm">md button</button>
                     <button type="button" class="btn btn-default btn-sm">sm button</button>
-                    <button type="button" class="btn btn-default btn-xs">xs button</button>
+                    <button type="button" class="btn btn-default btn-sm">xs button</button>
                 </div>
             </div>
             <!--buttons group:-->
             <div class="row form-group">
-                <label>Button Group:</label><br>
-                <div class="col-md-4">
+                <div class="col-md-6">
+                    <label>Button Group:</label><br>
                     <div class="btn-group" role="group" aria-label="Hello World">
-                        <button type="button" class="btn btn-default">Left</button>
-                        <button type="button" class="btn btn-default">Middle</button>
-                        <button type="button" class="btn btn-default">Right</button>
+                        <button type="button" class="btn btn-default btn-sm">Left</button>
+                        <button type="button" class="btn btn-default btn-sm">Middle</button>
+                        <button type="button" class="btn btn-default btn-sm">Right</button>
                     </div>
 
                 </div>
-                <div class="col-md-8">
+                <div class="col-md-6">
+                    <label>Button Group:</label><br>
                     <div class="btn-group btn-group-justified" role="group" aria-label="Hello World">
                         <div class="btn-group" role="group">
-                            <button type="button" class="btn btn-default">Left</button>
+                            <button type="button" class="btn btn-default btn-sm">Left</button>
                         </div>
                         <div class="btn-group" role="group">
-                            <button type="button" class="btn btn-default">Middle</button>
+                            <button type="button" class="btn btn-default btn-sm">Middle</button>
                         </div>
                         <div class="btn-group" role="group">
-                            <button type="button" class="btn btn-default">Right</button>
+                            <button type="button" class="btn btn-default btn-sm">Right</button>
                         </div>
                     </div>
                 </div>
             </div>
             <!--pagination group-->
             <div class="row form-group">
-                <label>Pagination</label><br>
                 <div class="col-md-3">
+                    <label>Pagination</label><br>
                     <nav>
                         <ul class="pagination">
                             <li>
@@ -616,8 +796,8 @@
 
             <!--images-->
             <div class="row form-group">
-                <label>Images shapes:</label><br>
                 <div class="col-md-3">
+                    <label>Images shapes:</label><br>
                     <img src="images/4.jpg" class="img-responsive" alt="Responsive image">
                 </div>
                 <div class="col-md-3">
@@ -647,17 +827,13 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="row form-group">
-            <div class="col-md-offset-10 col-md-2">
-                <input onclick="goBack()" class="btn btn-default btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
+            <div class="row form-group">
+                <div class="col-md-offset-10 col-md-2">
+                    <a href="index.php">
+                        <input class="btn btn-default btn-sm btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
+                    </a>
+                </div>
             </div>
         </div>
     </body>
 </html>
-
-<script>
-    function goBack() {
-        window.history.back();
-    }
-</script>

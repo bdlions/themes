@@ -9,17 +9,7 @@
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
     </head>
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #d3959b 10%, #bfe6ba 90%) repeat scroll 0 0; candy-->
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #d1913c 10%, #ffd194 90%) repeat scroll 0 0; Koko Caramel-->
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #83a4d4 10%, #b6fbff 90%) repeat scroll 0 0; friday-->
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #add100 10%, #7b920a 90%) repeat scroll 0 0; Parklife-->
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #dd5e89 10%, #f7bb97 90%) repeat scroll 0 0; pinky-->
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #dad299 10%, #b0dab9 90%) repeat scroll 0 0; autumn-->
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #50c9c3 10%, #96deda 90%) repeat scroll 0 0; Aqualicious-->
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #f09819 10%, #edde5d 90%) repeat scroll 0 0; Mango Pulp-->
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #b993d6 10%, #8ca6db 90%) repeat scroll 0 0; Dirty Fog-->
-<!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #ec6f66 10%, #f3a183 90%) repeat scroll 0 0; Bourbon-->
-    <body style="">
+    <body>
         <style>
             .content {
                 width: 100%;

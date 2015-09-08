@@ -12,7 +12,7 @@
     </head>
     <!--background: rgba(0, 0, 0, 0) linear-gradient(90deg, #D3B9E8 10%, #9DB6E8 90%) repeat scroll 0 0; Dirty Fog-->
     <body>
-     <style>
+        <style>
             .dropdown-submenu{
                 position:relative;
             }
@@ -684,12 +684,12 @@
                     </ul>
                 </div>
             </div>
-        </div>
-        <div class="row form-group">
-            <div class="col-md-offset-10 col-md-2">
-                <a href="index.php">
-                    <input class="btn btn-default btn-sm btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
-                </a>
+            <div class="row form-group">
+                <div class="col-md-offset-10 col-md-2">
+                    <a href="index.php">
+                        <input class="btn btn-default btn-sm btn-sm" type="button" data-dismiss="modal" aria-hidden="true" value="Go Back">
+                    </a>
+                </div>
             </div>
         </div>
     </body>
